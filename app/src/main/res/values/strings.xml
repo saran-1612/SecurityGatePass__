@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Security Gate Pass</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="scanner_screen_header">Document</string>
+    <string name="scan_bar_code">Scan Bar Code</string>
+    <string name="scan">Scan</string>
+    <string name="manual">Manual</string>
+    <string name="type_bar_code">Type Bar Code</string>
+    <string name="edit">Edit</string>
+    <string name="items">Items</string>
+</resources>
