@@ -32,14 +32,6 @@ import com.google.android.material.textfield.TextInputEditText;
 public class ScannerActivity extends AppCompatActivity {
 
     private CodeScanner mCodeScanner;
-   // private CodeScanner mCodeScanner;
-   // private CodeScanner mCodeScanner;
-   // private CodeScanner mCodeScanner;
-   // private CodeScanner mCodeScanner;
-
-   // private CodeScanner mCodeScanner;
-   // private CodeScanner mCodeScanner;
-
     private CodeScannerView scannerView;
     private TextView tvHeaderClose, tvScanner, tvManual, tvHeaderTitle;
     private TextInputEditText etBarcode;
@@ -56,13 +48,6 @@ public class ScannerActivity extends AppCompatActivity {
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
         }
-        /*if (getSupportActionBar() != null) {
-            getSupportActionBar().hide();
-        }*/
-        /*if (getSupportActionBar() != null) {
-            getSupportActionBar().hide();
-        }*/
- //////
         initControls();
 
         mCodeScanner.setDecodeCallback(result -> {
