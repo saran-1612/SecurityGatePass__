@@ -62,7 +62,7 @@ public class ScannerActivity extends AppCompatActivity {
         /*if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
         }*/
-
+ //////
         initControls();
 
         mCodeScanner.setDecodeCallback(result -> {
