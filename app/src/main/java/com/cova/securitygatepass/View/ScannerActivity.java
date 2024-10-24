@@ -54,6 +54,9 @@ public class ScannerActivity extends AppCompatActivity {
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
         }
+        /*if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }*/
 
         initControls();
 
