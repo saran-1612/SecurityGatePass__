@@ -36,8 +36,10 @@ public class ScannerActivity extends AppCompatActivity {
    // private CodeScanner mCodeScanner;
    // private CodeScanner mCodeScanner;
    // private CodeScanner mCodeScanner;
+
    // private CodeScanner mCodeScanner;
    // private CodeScanner mCodeScanner;
+
     private CodeScannerView scannerView;
     private TextView tvHeaderClose, tvScanner, tvManual, tvHeaderTitle;
     private TextInputEditText etBarcode;
